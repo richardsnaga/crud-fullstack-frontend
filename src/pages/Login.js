@@ -67,13 +67,13 @@ export default function Login() {
               />
             </div>
             <div className="mb-3">
-              <label htmlFor="Username" className="form-label">
+              <label htmlFor="Password" className="form-label">
                 Password
               </label>
               <input
                 type={"text"}
                 className="form-control"
-                placeholder="Enter your sername"
+                placeholder="Enter your password"
                 name="password"
                 value={password}
                 onChange={(e) => onInputChange(e)}
