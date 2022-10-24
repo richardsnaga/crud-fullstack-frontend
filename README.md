@@ -13,3 +13,6 @@ Run the App
 ```bash
 npm run start
 ```
+
+## The application will start in
+http://localhost:3000/
