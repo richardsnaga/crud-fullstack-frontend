@@ -14,7 +14,7 @@ export default function Login() {
   });
 
   const { username, password } = user;
-  // console.log(user);
+
   const onInputChange = (e) => {
     setUser({ ...user, [e.target.name]: e.target.value });
   };
@@ -42,7 +42,6 @@ export default function Login() {
     loadUsers();
   }, []);
 
-  // console.log("USERRR", testing);
   const loadUsers = async () => {
     const result = await axios.get("http://localhost:8080/users");
     setUsers(result.data);

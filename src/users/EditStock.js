@@ -30,7 +30,6 @@ export default function EditUser() {
   };
 
   const onSubmit = async (e) => {
-    console.log("typee", quantity + add);
     e.preventDefault();
     await axios.put(`http://localhost:8080/stock/${id}`, {
       name: name,

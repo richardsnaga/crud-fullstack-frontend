@@ -12,11 +12,8 @@ export default function Home() {
     loadStocks();
   }, []);
 
-  console.log("USERRR", active_user);
   const loadStocks = async () => {
     const result = await axios.get("http://localhost:8080/stocks");
-    console.log(result);
-
     setStocks(result.data);
   };
 
