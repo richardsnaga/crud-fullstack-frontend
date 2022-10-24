@@ -45,7 +45,7 @@ export default function AddUser() {
                 Price
               </label>
               <input
-                type={"text"}
+                type={"number"}
                 className="form-control"
                 placeholder="Enter the stock price"
                 name="price"
@@ -58,7 +58,7 @@ export default function AddUser() {
                 Quantity
               </label>
               <input
-                type={"text"}
+                type={"number"}
                 className="form-control"
                 placeholder="Enter the stock quantity"
                 name="quantity"
