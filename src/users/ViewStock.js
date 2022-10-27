@@ -34,11 +34,11 @@ export default function ViewUser() {
                   {stock.name}
                 </li>
                 <li className="list-group-item">
-                  <b>Username: </b>
+                  <b>Quantity: </b>
                   {stock.quantity}
                 </li>
                 <li className="list-group-item">
-                  <b>Email: </b>
+                  <b>Price: </b>
                   {stock.price}
                 </li>
               </ul>
